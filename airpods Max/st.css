@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f5f7;
+}
+
+nav img {
+  width: 40px;
+}
+
+a {
+  color: gray;
+}
+
+nav {
+  padding: 10px 100px;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  gap: 50px;
+}
+
+main {
+  display: flex;
+}
+
+.bigtext img {
+  width: 500px;
+  transform: translate(150px, 80px);
+}
+
+.bigtext h1 {
+  color:white;
+  font-size: 290px;
+  line-height: 220px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: auto;
+  top: 0;
+  left: -25px;
+  margin-top: 100px;
+}
+
+.pods img {
+  width: 519px;
+}
+
+.caption {
+  z-index: 2;
+  width: 300px;
+  transform: translate(245px, 130px);
+}
+
+.caption h2 {
+  font-size: 100px;
+  line-height: 85px;
+  color: rgb(58, 58, 58);
+}
+
+.caption p {
+  margin-top: 30px;
+  color: gray;
+  line-height: 25px
+}
+
+.caption button {
+  margin-top: 30px;
+  padding: 20px 50px;
+  border-radius: 50px;
+  color: rgb(183, 183, 183);
+  font-size: 20px;
+  box-shadow:  -6px -20px 35px #ffffff, -6px -10px 15px #ffffff, -20px 0px 30px #ffffff, 6px 20px 25px rgba(0,0,0,0.2);
+  transition: .13s ease-in-out;
+  border:4px solid #888888;
+  outline:none;
+  background-color:#f4f5f6;
+  cursor:pointer;
+
+}
+
+.pods {
+  position: absolute;
+  right: 0;
+}
