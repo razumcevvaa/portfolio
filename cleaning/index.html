@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="st.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap" rel="stylesheet">
+  <title>Puur</title>
+</head>
+
+<body>
+  <section class="banner">
+    <header>
+      <nav>
+        <div class="logo">
+          <h2>puur</h2>
+          <a class="bc-border" href="#">Тула</a>
+        </div>
+        <div class="main-nav">
+          <a class="bc-border" href="tel:+7 905 114 55 44">+7 905 114 55 44</a>
+          <a href="#">Статус заказа</a>
+          <a href="#">Услуги</a>
+          <a href="#">Контакты</a>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="carousel">
+        <div class="left">
+          <div class="heading-title">
+            <h1>зимний комплекс <br> для замшевой обуви</h1>
+            <h2> с выгодой 25%</h2>
+          </div>
+          <div class="heading-flex">
+            <button class="consultation">
+              <a href="#registrarion">КОНСУЛЬТАЦИЯ</a></button>
+            <ol>
+              <li>химчистка</li>
+              <li>выведение реагентов</li>
+              <li>восстановление цвета</li>
+              <li>пропитка от воды </li>
+            </ol>
+          </div>
+        </div>
+        <div class="foto-of-shoes">
+          <img src="./before.png" alt="before">
+          <img class="pos-top" src="./after.png" alt="after">
+        </div>
+        <a class="subsract_l" href="#">
+          <span><img src="./subsract_l.svg" alt=""></span>
+        </a>
+        <a class="subsract_r" href="#">
+          <span> <img src="./substract_r.svg" alt=""> </span>
+        </a>
+        <ol class="carousel__indicators">
+          <li class="carousel__indicators_item filled"></li>
+          <li class="carousel__indicators_item"></li>
+          <li class="carousel__indicators_item"></li>
+          <li class="carousel__indicators_item"></li>
+        </ol>
+      </div>
+      <div class="modal_window">
+        <a href="#" class="overlay" id="registrarion"></a>
+        <div class="popup">
+          <form>
+            <h3>Мы свяжемся с вами в ближайшее время!</h3>
+            <input type="text" name="name" id="name" placeholder="Ваше имя" required>
+            <input type="tel" name="tel" required maxlength="11" placeholder="+7">
+            <a class="close" title="Закрыть" href="#close"></a>
+            <input type="submit" value="Отправить">
+          </form>
+        </div>
+      </div>
+      <img class="stars" src="./stars.svg" alt="">
+      <img class="stars2" src="./stars.svg" alt="">
+      <img class="stars3" src="./stars.svg" alt="">
+    </div>
+  </section>
+</body>
+
+</html>

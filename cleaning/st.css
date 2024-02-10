@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Roboto Mono';
+}
+
+.banner {
+  background: radial-gradient(rgba(124, 171, 243, 1),
+      rgba(227, 238, 255, 1));
+  height: 100vh;
+}
+
+.container {
+  padding: 0 100px;
+  font-family: 'Unbounded';
+  font-weight: 100;
+}
+
+a {
+  color: rgba(0, 80, 185, 1);
+}
+
+nav {
+  text-transform: uppercase;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 80, 185, 1);
+  align-items: center;
+  font-size: 18px;
+}
+
+.main-nav a {
+  margin: 0 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bc-border {
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 80, 185, 1);
+  background-color: rgba(0, 80, 185, 1);
+  color: white;
+  border-radius: 10px;
+  padding: 4px 20px;
+}
+
+.foto-of-shoes img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.pos-top {
+  position: relative;
+  top: -123px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading-title h1 {
+  font-size: 50px;
+  font-weight: 200;
+  color: rgba(0, 63, 147, 1);
+  text-transform: uppercase;
+}
+
+.heading-title h2 {
+  color: rgba(0, 63, 147, 1);
+  font-size: 40px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.heading-flex {
+  display: flex;
+  gap: 100px;
+  color: rgba(0, 63, 147, 1);
+  font-size: 20px;
+}
+
+.heading-flex ol {
+  text-align: left;
+}
+
+.consultation {
+  background-color: rgb(255, 214, 251);
+  color: rgba(0, 63, 147, 1);
+  width: 292.25px;
+  height: 63.04px;
+  border: 1px solid rgb(0, 63, 147, 1);
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 30px;
+  box-shadow: 2px 7px 13px 2px rgba(34, 60, 80, 0.22);
+  transition: 1s ease-in-out;
+}
+
+.consultation a {
+  padding: 20px 50px;
+}
+
+.consultation:hover {
+  background-color: rgb(255, 197, 249);
+  transform: scale(1.3);
+
+}
+
+.subsract_l {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  bottom: 50%;
+}
+
+.foto-of-shoes {
+  width: 500px;
+}
+
+.subsract_r {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  bottom: 50%;
+}
+
+.left {
+  margin-top: 200px;
+  position: relative;
+  left: 90px;
+}
+
+.carousel__indicators {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  gap: 10px;
+}
+
+.carousel__indicators_item {
+  border: 1px solid white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.filled {
+  background-color: white;
+}
+
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  position: fixed;
+  cursor: default;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -ms-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 20px;
+  z-index: 10;
+  display: block;
+  visibility: hidden;
+  width: 90%;
+  margin: 0 auto;
+  min-width: 330px;
+  max-width: 350px;
+  position: fixed;
+  padding: 15px;
+  border: 1px solid #383838;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: all ease .5s;
+}
+
+.overlay:target+.popup {
+  top: 30%;
+  visibility: visible;
+  opacity: 1;
+}
+
+.close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(0, 80, 185, 1);
+  border-radius: 15px;
+  background-color: rgba(0, 80, 185, 1);
+  box-shadow: 0px 0px 10px #000;
+  text-align: center;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.close:before {
+  color: rgba(255, 255, 255, 0.9);
+  content: "X";
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+  font-size: 12px;
+}
+.popup input {
+  margin-top: 20px;
+  width: 150px;
+  padding: 5px 20px;
+  background-color: rgb(255, 214, 251);
+  color: rgba(0, 63, 147, 1);
+  border: 1px solid rgb(0, 63, 147, 1);
+  border-radius: 20px;
+}
+.popup h3 {
+  color: rgba(0, 80, 185, 1);
+  text-align: center;
+}
+input[type=submit] {
+  background-color: rgb(255, 214, 251);
+  color: rgba(0, 63, 147, 1);
+  width: 150px;
+  height: 40px;
+  border: 1px solid rgb(0, 63, 147, 1);
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stars {
+  position: absolute;
+  left: 220px;
+  top: 290px;
+}
+.stars2 {
+  position: absolute;
+  left: 200px;
+  top: 330px;
+}
+.stars3 {
+  width: 15px;
+  position: absolute;
+  left: 800px;
+  top: 370px;
+}

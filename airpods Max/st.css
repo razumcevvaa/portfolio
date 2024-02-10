@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: local('Museo Sans Cyrl 500'), local('MuseoSansCyrl-500'), url('Museosanscyrl500.woff2') format('woff2'), url('Museosanscyrl500.woff') format('woff'), url('Museosanscyrl500.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +11,7 @@
 }
 
 .container {
+  font-family: 'Museo Sans Cyrl';
   height: 100vh;
   width: 100%;
   background-color:#f5f5f7;
@@ -87,7 +94,7 @@ p {
   outline: none;
   background-color: #f5f5f7;
   cursor: pointer;
-
+transition: 1s ease-in-out;
 }
 
 .pods {
@@ -105,6 +112,11 @@ p {
 
 .description img {
   width: 450px;
+}
+.jc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .foto {
@@ -131,6 +143,16 @@ p {
   background-color: white;
   color: rgb(208, 208, 208);
   margin-top: 30px;
+  transition: 1s ease-in-out;
+}
+ button:hover {
+  color: rgb(121, 121, 121);
+  background-color: rgb(234, 234, 234);
+  border: 2px solid #999999;
+  padding: 20px 60px;
+}
+.desc button:hover {
+  padding: 0;
 }
 
 .desc {
@@ -141,11 +163,13 @@ p {
 .airpods img {
   width: 900px;
   position: relative;
-  left: 150px;
+ right: -150px;
 }
 
 .airpods {
   overflow: hidden;
+  position: absolute;
+  right: 0;
 }
 
 .margin {
