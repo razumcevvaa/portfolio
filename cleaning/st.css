@@ -232,6 +232,7 @@ nav {
   text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
   font-size: 12px;
 }
+
 .popup input {
   margin-top: 20px;
   width: 150px;
@@ -241,10 +242,12 @@ nav {
   border: 1px solid rgb(0, 63, 147, 1);
   border-radius: 20px;
 }
+
 .popup h3 {
   color: rgba(0, 80, 185, 1);
   text-align: center;
 }
+
 input[type=submit] {
   background-color: rgb(255, 214, 251);
   color: rgba(0, 63, 147, 1);
@@ -256,24 +259,82 @@ input[type=submit] {
   font-weight: 100;
   margin-top: 30px;
 }
+
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .stars {
   position: absolute;
   left: 220px;
   top: 290px;
 }
+
 .stars2 {
   position: absolute;
   left: 200px;
   top: 330px;
 }
+
 .stars3 {
   width: 15px;
   position: absolute;
   left: 800px;
   top: 370px;
+}
+
+.doli {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 223, 252, 1);
+  gap: 20px;
+}
+
+.doli a {
+  color: black;
+  text-decoration: underline;
+}
+
+.logo-doli {
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sale {
+  height: 50px;
+  background-color: rgba(255, 223, 252, 1);
+  border-top: 5px solid rgba(245, 148, 239);
+  border-bottom: 5px solid rgba(245, 148, 239);
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+font-size: 17px;
+}
+
+.sale a {
+  color: rgba(245, 148, 239);
+  width: 300px;
+  text-transform: uppercase;
+}
+
+.sale_item {
+  display: flex;
+  gap: 70px;
+	animation-duration: 10s;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes move {
+	from {
+		margin-left: -1000px;
+	}
+	to {
+		margin-left: 1000px;
+	}
 }
