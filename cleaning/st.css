@@ -1,9 +1,17 @@
+@font-face {
+  font-family: 'OpenGost Type A TT';
+  src: local('OpenGost Type A TT Regular'), local('OpenGostTypeATT-Regular'), url('opengosttypeattregular.woff2') format('woff2'), url('opengosttypeattregular.woff') format('woff'), url('opengosttypeattregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
-  font-family: 'Roboto Mono';
+  font-family: 'OpenGost Type A TT';
 }
 
 .banner {
@@ -14,8 +22,11 @@
 
 .container {
   padding: 0 100px;
-  font-family: 'Unbounded';
   font-weight: 100;
+}
+
+button {
+  cursor: pointer;
 }
 
 a {
@@ -99,7 +110,7 @@ nav {
   height: 63.04px;
   border: 1px solid rgb(0, 63, 147, 1);
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 100;
   margin-top: 30px;
   box-shadow: 2px 7px 13px 2px rgba(34, 60, 80, 0.22);
@@ -113,7 +124,6 @@ nav {
 .consultation:hover {
   background-color: rgb(255, 197, 249);
   transform: scale(1.3);
-
 }
 
 .subsract_l {
@@ -472,7 +482,7 @@ form {
 .delivery {
   display: flex;
   justify-content: center;
-  gap: 140px;
+  gap: 250px;
   padding: 50px 0;
 }
 
@@ -522,11 +532,11 @@ form {
   text-transform: uppercase;
   top: 20px;
   transform: rotate(15deg);
-  left: 470px;
+  left: 250px;
 }
 
 .karta {
-  width: 1100px;
+  max-width: 1100px;
   margin: 50px 0;
 }
 
@@ -551,12 +561,12 @@ form {
 }
 
 .ft p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .ft a {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .flex_ft {
