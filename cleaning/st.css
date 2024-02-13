@@ -45,6 +45,7 @@ nav {
 
 .main-nav a {
   margin: 0 10px;
+  font-size: 22px;
 }
 
 .logo {
@@ -344,6 +345,7 @@ form {
   display: flex;
   gap: 70px;
 }
+
 .first {
   animation: move 10s infinite linear;
 }
@@ -602,4 +604,53 @@ form {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 30px;
+}
+
+/* стили для index2 */
+
+.main2_bc {
+  background-color: white;
+  height: 100vh;
+}
+
+.main_group {
+  width: 550px;
+}
+
+.flex_main2 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.prise_catr {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.price_tb1 {
+  width: 500px;
+  line-height: 50px;
+}
+
+table td {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgba(0, 80, 185, 1);
+}
+
+.here {
+  text-decoration: underline;
+}
+.price_tb2 {
+  width: 500px;
+}
+.price_tb2 td {
+  font-size: 25px;
+}
+.font-w {
+  text-decoration: underline;
 }
