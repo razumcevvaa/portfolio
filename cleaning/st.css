@@ -276,6 +276,14 @@ form {
   align-items: center;
 }
 
+.box {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
 .stars {
   position: absolute;
   left: 220px;
@@ -386,11 +394,17 @@ form {
 
 .categorii_card {
   display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
   justify-content: center;
   margin: 30px 0;
   position: relative;
+}
+
+.categorii_card_item:hover {
+  transform: scale(1.1);
+}
+
+.categorii_card_item {
+  transition: 0.5s ease-in-out;
 }
 
 .categorii_card_item img {
@@ -518,7 +532,14 @@ form {
   font-weight: 100;
   color: rgba(255, 52, 235, 1);
   box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.5s ease-in-out;
 }
+
+.bt_delivery:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 239, 253);
+}
+
 
 .on_h1 {
   position: relative;
