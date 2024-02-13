@@ -343,19 +343,18 @@ form {
 .sale_item {
   display: flex;
   gap: 70px;
-  animation-duration: 20s;
-  animation-name: move;
-  animation-iteration-count: inherit;
-  animation-timing-function: linear;
+}
+.first {
+  animation: move 10s infinite linear;
 }
 
 @keyframes move {
   from {
-    margin-left: -1000px;
+    margin-left: -1215px;
   }
 
   to {
-    margin-left: 500px;
+    margin-left: 0;
   }
 }
 
