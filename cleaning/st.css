@@ -462,11 +462,114 @@ form {
   position: absolute;
   bottom: 40%;
 }
+
 .subsract_r_fb {
   right: 0;
   position: absolute;
   bottom: 40%;
 }
+
 .delivery {
   display: flex;
+  justify-content: center;
+  gap: 140px;
+  padding: 50px 0;
+}
+
+.delivery img {
+  width: 300px;
+}
+
+.text h1 {
+  font-size: 49px;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.text h2 {
+  font-size: 35px;
+  color: black;
+  text-align: left;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.bt_delivery {
+  background-color: white;
+  margin: 30px 0;
+  width: 330px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: rgba(255, 52, 235, 1);
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.on_h1 {
+  position: relative;
+  background-color: rgba(255, 52, 235, 1);
+  color: white;
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  top: 20px;
+  transform: rotate(15deg);
+  left: 470px;
+}
+
+.karta {
+  width: 1100px;
+  margin: 50px 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.ft {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(39, 67, 243, 1);
+  color: white;
+  border-radius: 50px 50px 0 0;
+  padding-top: 80px;
+}
+
+.ft h4 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.ft p {
+  font-size: 20px;
+}
+
+.ft a {
+  color: white;
+  font-size: 20px;
+}
+
+.flex_ft {
+  display: flex;
+  gap: 40px;
+}
+
+.place,
+.zakaz,
+.kontact {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
 }
