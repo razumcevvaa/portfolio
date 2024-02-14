@@ -20,13 +20,26 @@
       <nav>
         <div class="logo">
           <h2>puur</h2>
-          <a class="bc-border" href="#">Тула</a>
+          <a class="bc-border" href="#">Рязань</a>
         </div>
         <div class="main-nav">
           <a class="bc-border" href="tel:+7 905 114 55 44">+7 905 114 55 44</a>
-          <a href="#">Статус заказа</a>
-          <a href="index2.html">Услуги</a>
-          <a href="#">Контакты</a>
+          <div class="menu">
+            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+            <label for="burger-checkbox" class="burger"></label>
+            <ul class="menu-list">
+              <li> <a href="#">Статус заказа</a>
+              <li>
+              <li>
+                <a href="index2.html">Услуги</a>
+              <li>
+              <li> <a href="#kont">Контакты</a>
+              <li>
+            </ul>
+          </div>
+          <a class="dn" href="#">Статус заказа</a>
+          <a class="dn" href="index2.html">Услуги</a>
+          <a class="dn" href="#kont">Контакты</a>
         </div>
       </nav>
     </header>
@@ -49,7 +62,7 @@
           </div>
         </div>
         <div class="foto-of-shoes">
-          <img src="./before.png" alt="before">
+          <img class="pos-bot" src="./before.png" alt="before">
           <img class="pos-top" src="./after.png" alt="after">
         </div>
         <a class="subsract_l" href="#">
@@ -65,22 +78,22 @@
           <li class="carousel__indicators_item"></li>
         </ol>
       </div>
-      <div class="modal_window">
-        <a href="#" class="overlay" id="registrarion"></a>
-        <div class="popup">
-          <form>
-            <h3>Мы свяжемся с вами в ближайшее время!</h3>
-            <input type="text" name="name" id="name" placeholder="Ваше имя" required>
-            <input type="tel" name="tel" required maxlength="11" placeholder="+7">
-            <a class="close" title="Закрыть" href="#close"></a>
-            <input type="submit" value="Отправить">
-          </form>
-        </div>
-      </div>
-      <img class="stars" src="./stars.svg" alt="">
-      <img class="stars2" src="./stars.svg" alt="">
-      <img class="stars3" src="./stars.svg" alt="">
     </div>
+    <div class="modal_window">
+      <a href="#" class="overlay" id="registrarion"></a>
+      <div class="popup">
+        <form>
+          <h3>Мы свяжемся с вами в ближайшее время!</h3>
+          <input type="text" name="name" id="name" placeholder="Ваше имя" required>
+          <input type="tel" name="tel" required maxlength="11" placeholder="+7">
+          <a class="close" title="Закрыть" href="#close"></a>
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
+    </div>
+    <img class="stars" src="./stars.svg" alt="">
+    <img class="stars2" src="./stars.svg" alt="">
+    <img class="stars3" src="./stars.svg" alt="">
   </section>
   <div class="sale">
     <div class="sale_item first">
@@ -153,50 +166,50 @@
       </h2>
       <div class="categorii_card">
         <div class="box">
-        <div class="categorii_card_item">
-          <a class="bc" href="#">oбувь</a>
-          <a href="#">
-            <img src="./main1.png" alt="">
-          </a>
+          <div class="categorii_card_item">
+            <a class="bc" href="#">oбувь</a>
+            <a href="#">
+              <img src="./main1.png" alt="">
+            </a>
+          </div>
+          <div class="categorii_card_item">
+            <a class="bc" href="#">сумки и аксессуары</a>
+            <a href="#">
+              <img src="./main2.png" alt="">
+            </a>
+          </div>
+          <div class="categorii_card_item">
+            <a class="bc" href="#">домашний текстиль</a>
+            <a href="#">
+              <img src="./ main3.png" alt="">
+            </a>
+          </div>
+          <div class="categorii_card_item">
+            <a class="bc" href="#">верхняя одежда</a>
+            <a href="#">
+              <img src="./main4.png" alt="">
+            </a>
+          </div>
+          <div class="categorii_card_item">
+            <a class="bc" href="#">одежда</a>
+            <a href="#">
+              <img src="./main5.png" alt="">
+            </a>
+          </div>
+          <div class="categorii_card_item">
+            <a class="bc" href="#">мебель</a>
+            <a href="#">
+              <img src="./main6.png" alt="">
+            </a>
+          </div>
         </div>
-        <div class="categorii_card_item">
-          <a class="bc" href="#">сумки и аксессуары</a>
-          <a href="#">
-            <img src="./main2.png" alt="">
-          </a>
-        </div>
-        <div class="categorii_card_item">
-          <a class="bc" href="#">домашний текстиль</a>
-          <a href="#">
-            <img src="./ main3.png" alt="">
-          </a>
-        </div>
-        <div class="categorii_card_item">
-          <a class="bc" href="#">верхняя одежда</a>
-          <a href="#">
-            <img src="./main4.png" alt="">
-          </a>
-        </div>
-        <div class="categorii_card_item">
-          <a class="bc" href="#">одежда</a>
-          <a href="#">
-            <img src="./main5.png" alt="">
-          </a>
-        </div>
-        <div class="categorii_card_item">
-          <a class="bc" href="#">мебель</a>
-          <a href="#">
-            <img src="./main6.png" alt="">
-          </a>
-        </div>
-      </div>
       </div>
       <div class="feedback">
         <h1 style="text-transform: uppercase; font-size: 40px;">что о нас <br> говорят люди</h1>
         <div class="carousel_feedback">
-          <img src="./fb1.png" alt="">
+          <img class="dn_adap_later" src="./fb1.png" alt="">
           <img src="./fb2.png" alt="">
-          <img src="./fb3.png" alt="">
+          <img class="dn_adap" src="./fb3.png" alt="">
         </div>
         <img class="subsract_l_fb" src="./subsract_l.svg" alt="">
         <img class="subsract_r_fb" src="./substract_r.svg" alt="">
@@ -208,7 +221,7 @@
         </ol>
       </div>
       <div class="delivery">
-        <div class="text">
+        <div class="text_d">
           <p class="on_h1">от 3000p</p>
           <h1>Заберем и доставим <br> бесплатно</h1>
           <h2>или вызовем Яндекс.Курьера <br> по выгодному тарифу</h2>
@@ -220,14 +233,15 @@
   </section>
   <section>
     <div class="container center">
-      <img class="karta" src="./skrin.png" alt="">
+      <iframe class="map" src="https://yandex.ru/map-widget/v1/?z=12&amp;ol=biz&amp;oid=159035061354" width="700"
+        height="400" frameborder="0"></iframe>
     </div>
   </section>
   <footer>
     <div class="container ft">
       <div class="place">
         <h4> пункты приема</h4>
-        <p>Тула, ул.Болдина 123</p>
+        <p>Рязань, ул.Чапаева 59</p>
         <p>График работы: <br>
           пн-пт:10-20 <br>
           сб-вс:11-18</p>
@@ -238,7 +252,7 @@
           <a href="#">Узнать статус заказа</a>
         </div>
         <div class="kontact">
-          <h4>Контакты</h4>
+          <h4 id="kont">Контакты</h4>
           <a href="#">+7 905 114 55 44</a>
           <a href="#">ВКонтакте</a>
           <a href="#">WhatsApp</a>

@@ -1,0 +1,374 @@
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+
+  .subsract_r {
+    right: 10px;
+  }
+
+  .subsract_l {
+    left: 10px;
+  }
+
+  .categorii_card_item img {
+    width: 320px;
+  }
+
+  .carousel_feedback img {
+    max-width: 250px;
+  }
+
+  .foto-of-shoes img {
+    width: 400px;
+  }
+
+  .delivery {
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .foto-of-shoes img {
+    width: 270px;
+    object-fit: contain;
+    height: 350px;
+  }
+
+  .heading-flex {
+    gap: 20px;
+  }
+
+  .left,
+  .right {
+    height: 300px;
+  }
+
+  .subsract_r,
+  .subsract_l {
+    top: 65%;
+  }
+
+  .categorii_card_item img {
+    width: 375px;
+  }
+
+  .stars3 {
+    left: 300px;
+  }
+
+  .cards_item {
+    width: 320px;
+    height: 100px;
+  }
+
+  .carousel_feedback img {
+    width: 200px;
+  }
+
+  .delivery img {
+    width: 200px;
+  }
+
+  .ft h4 {
+    font-size: 20px;
+  }
+
+  .ft a {
+    font-size: 15px;
+  }
+
+  .carousel__indicators_item {
+    width: 10px;
+    height: 10px;
+  }
+
+  .main-nav a {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .carousel {
+    flex-direction: column;
+  }
+
+  .delivery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .delivery img {
+    width: 300px;
+  }
+
+  .on_h1 {
+    left: 120px;
+  }
+
+  .consultation {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+
+  }
+
+  .sale {
+    height: 20px;
+  }
+
+  .heading-title h1,
+  h2 {
+    text-align: center;
+  }
+
+  .consultation a {
+    padding: 10px;
+  }
+
+  .subsract_l_fb,
+  .subsract_r_fb,
+  .dn_adap,
+  .carousel__indicators {
+    display: none;
+  }
+
+  .heading-flex {
+    flex-direction: column;
+  }
+
+  .left {
+    margin: 0;
+    position: static;
+  }
+
+  .subsract_r,
+  .subsract_l {
+    display: none;
+  }
+
+  .foto-of-shoes {
+    width: auto;
+    display: flex;
+  }
+
+  nav {
+    padding: 10px;
+  }
+
+  .pos-top {
+    position: relative;
+    top: -200px;
+    right: 200px;
+  }
+
+  .pos-bot {
+    position: relative;
+    top: -30px;
+  }
+
+  .doli {
+    font-size: 15px;
+  }
+
+  .union {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .carousel_feedback {
+    gap: 10px;
+  }
+
+  .container {
+    padding: 30px;
+  }
+
+  .foto-of-shoes img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .burger-checkbox {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .burger {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 35px;
+    height: 25px;
+    margin-left: 5px;
+  }
+
+  .burger::before,
+  .burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background: rgb(0 80 185);
+  }
+
+  .burger::before {
+    top: 0;
+    box-shadow: 0 11px 0 rgb(0 80 185);
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+  }
+
+  .burger::after {
+    bottom: 0;
+    transition: bottom .3s .15s, transform .3s;
+  }
+
+  .burger-checkbox:checked+.burger::before {
+    top: 10px;
+    transform: rotate(45deg);
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
+    transition: box-shadow .15s, top .3s, transform .3s .15s;
+  }
+
+  .burger-checkbox:checked+.burger::after {
+    bottom: 10px;
+    transform: rotate(-45deg);
+    transition: bottom .3s, transform .3s .15s;
+  }
+
+  .menu-list {
+    top: 50px;
+    right: 0;
+    position: absolute;
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    background: rgb(254 215 251);
+    list-style-type: none;
+    transform: translateX(100%);
+    overflow: hidden;
+    transition: .3s;
+    width: 50%;
+    font-size: 30px;
+    border: 0.4px solid rgb(255 182 249);
+    border-radius: 0 0 0 20px;
+  }
+
+  .menu-item {
+    display: block;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .menu-item:hover {
+    background: rgba(255, 255, 255, .2)
+  }
+
+  .burger-checkbox:checked~.menu-list {
+    transform: translateX(0);
+  }
+
+  .dn {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+  }
+}
+
+@media screen and (max-width:390px) {
+  nav {
+    padding: 20px 30px;
+  }
+
+  .doli {
+    font-size: 13px;
+  }
+
+  .consultation {
+    position: absolute;
+    top: 78%;
+    left: 100px;
+  }
+  .consultation a {
+    font-size: 20px;
+  }
+  .categorii_card_item img {
+    width: 150px;
+  }
+  .box {
+    gap: 20px;
+  }
+  .bc {
+    font-size: 15px;
+    margin: 5px 5px;
+    padding: 0 5px;
+    background-color: white;
+    color: rgb(255, 4, 242);
+  }
+
+  .banner {
+    height: 700px;
+  }
+
+  .foto-of-shoes {
+    flex-direction: column;
+  }
+
+  .pos-top {
+    top: -600px;
+    right: 0;
+  }
+
+  .starpink3 {
+    display: none;
+  }
+
+  .dn_adap_later {
+    display: none;
+  }
+
+  .carousel_feedback img {
+    width: 350px;
+  }
+
+  .text_d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .delivery {
+    padding: 0;
+  }
+
+  .ft p,
+  a {
+    font-size: 10px;
+  }
+}
