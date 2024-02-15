@@ -266,7 +266,8 @@
     margin: 0;
     background: rgb(254 215 251);
     list-style-type: none;
-    transform: translateX(100%);
+    /* display: none; */
+    height: 0;
     overflow: hidden;
     transition: .3s;
     width: 50%;
@@ -289,7 +290,7 @@
   }
 
   .burger-checkbox:checked~.menu-list {
-    transform: translateX(0);
+    height: 142px;
   }
 
   .dn {
@@ -312,7 +313,7 @@
 
   .consultation {
     position: absolute;
-    top: 78%;
+    bottom: 110px;
     left: 100px;
   }
   .consultation a {
