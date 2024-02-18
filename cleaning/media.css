@@ -313,7 +313,7 @@
 
   .consultation {
     position: absolute;
-    bottom: 0;
+    bottom: -50px;
     left: 100px;
     z-index:2;
   }
