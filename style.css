@@ -15,9 +15,11 @@ nav {
 .first a {
   color: white;
 }
+
 body {
   background: #161616;
 }
+
 .first {
   height: 100vh;
 }
@@ -128,6 +130,7 @@ body {
   color: hsl(186 100% 69%);
   font-family: "Raleway", sans-serif;
 }
+
 .faulty-letter2 {
   opacity: 0.5;
   animation: faulty-flicker 2s linear infinite;
@@ -171,14 +174,14 @@ body {
 
 .glowing-btn:hover .glowing-txt {
   animation: none;
-  color:  #161616;
+  color: #161616;
 }
 
 .glowing-btn:hover .faulty-letter {
   animation: none;
   text-shadow: none;
   opacity: 1;
-  color:  #161616;
+  color: #161616;
 }
 
 .glowing-btn:hover:before {
@@ -194,24 +197,31 @@ body {
   0% {
     opacity: 0.1;
   }
+
   2% {
     opacity: 0.1;
   }
+
   4% {
     opacity: 0.5;
   }
+
   19% {
     opacity: 0.5;
   }
+
   21% {
     opacity: 0.1;
   }
+
   23% {
     opacity: 1;
   }
+
   80% {
     opacity: 0.5;
   }
+
   83% {
     opacity: 0.4;
   }
@@ -241,12 +251,15 @@ body {
   12% {
     opacity: 0.1;
   }
+
   20% {
     opacity: 1;
   }
+
   25% {
     opacity: 0.3;
   }
+
   30% {
     opacity: 1;
   }
@@ -254,6 +267,7 @@ body {
   70% {
     opacity: 0.7;
   }
+
   72% {
     opacity: 0.2;
   }
@@ -261,6 +275,7 @@ body {
   77% {
     opacity: 0.9;
   }
+
   100% {
     opacity: 0.9;
   }
@@ -270,9 +285,11 @@ body {
   0% {
     opacity: 0.1;
   }
+
   2% {
     opacity: 1;
   }
+
   4% {
     opacity: 0.1;
   }
@@ -280,19 +297,22 @@ body {
   8% {
     opacity: 1;
   }
+
   70% {
     opacity: 0.7;
   }
+
   100% {
     opacity: 1;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .glowing-btn{
+  .glowing-btn {
     font-size: 1em;
   }
 }
+
 span {
   color: hsl(186 100% 69%);
 }
@@ -306,6 +326,7 @@ span {
   right: 60px;
   align-items: center;
 }
+
 .bottom-nav a {
   font-size: 17px;
 }
@@ -313,6 +334,7 @@ span {
 .logo-tg {
   width: 40px;
 }
+
 .project {
   color: white;
 }
@@ -326,14 +348,19 @@ span {
   border-bottom: 1px solid hsl(186, 100%, 61%);
   border-top: 1px solid hsl(186, 100%, 61%);
 }
+
 .sites-item img {
   width: 400px;
+  height: 250px;
+  object-fit: cover;
 }
+
 .sites-item a {
   color: white;
   text-transform: uppercase;
 }
+
 .special-num {
   font-size: 80px;
-  color:  hsl(186, 100%, 61%);
+  color: hsl(186, 100%, 61%);
 }
