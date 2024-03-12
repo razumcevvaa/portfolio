@@ -70,17 +70,20 @@ nav a {
   justify-content: end;
   color: white;
 }
+
 .padding {
   padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .buttons_cars {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .bc1 {
   background-image: url(./Rectangle\ 12.png);
   background-size: cover;
@@ -117,6 +120,7 @@ nav a {
   background-repeat: no-repeat;
   background-color: rgba(58, 59, 53, 1);
 }
+
 .rent {
   background-color: white;
   border-radius: 30px;
@@ -124,14 +128,114 @@ nav a {
   border: none;
   font-size: 16px;
   text-transform: capitalize;
-  color:  rgba(58, 60, 53, 1);
+  color: rgba(58, 60, 53, 1);
 }
+
 .miles_cars {
   border: 1px solid white;
   border-radius: 30px;
   padding: 10px 20px;
   text-align: center;
 }
+
 button {
   cursor: pointer;
+}
+
+.main1,
+.main2 {
+  background-image: url(./Rectangle.png);
+}
+
+.about_us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px;
+}
+
+.about_us p {
+  font-size: 20px;
+  width: 400px;
+  text-align: justify;
+}
+
+.about_us h1 {
+  font-size: 100px;
+  color: rgba(58, 60, 53, 1);
+  line-height: 80px;
+}
+
+.car_and_numbers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.numbers_item {
+  border: 1px solid rgba(58, 60, 53, 1);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.numbers_item h2 {
+  font-size: 120px;
+}
+
+.numbers_item h4 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.small_text {
+  font-size: 30px;
+}
+
+.main_cars_img {
+  width: 1000px;
+  position: relative;
+  bottom: 120px;
+}
+
+.flex_colume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  padding: 0 50px;
+  background-image: url(./Rectangle.png);
+}
+
+.menu_with_service {
+  display: flex;
+}
+
+.service_item {
+  width: 40%;
+  height: 400px;
+}
+
+.backr1 {
+  background-image: url(./Rectangle\ 16.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backr2 {
+  background-image: url(./Rectangle\ 17.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backr3 {
+  background-image: url(./Rectangle\ 18.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
